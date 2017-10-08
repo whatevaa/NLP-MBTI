@@ -55,13 +55,13 @@ to :
 
 ### IV) Models
 * I have choosen to execute several classifier because results were not satisfying:
-	>> MultinomialNB which is pretty used for text classification
-	>> SGDClassifier, on of the more used for text classification and that give better results
-	>> Logistic regression, also frequently used
+    - MultinomialNB which is pretty used for text classification
+    - SGDClassifier, on of the more used for text classification and that give better results
+    - Logistic regression, also frequently used
 
 ### V) Improve Bag of Words and redo models
 * As my classification accuracies were not good even after several models, I choose to add modifiction in CountVectorizer parameters to improve the text treatment and quality of the words dictionnary by:
-	>>adding english stop words
-	>>adding in the word dictionnary group of two words
-	>>removing words that appear in more than 50% of the posts
-	>>removing words that appear in less than two posts
+    - adding english stop words
+    - adding in the word dictionnary group of two words
+    - removing words that appear in more than 50% of the posts
+    - removing words that appear in less than two posts
